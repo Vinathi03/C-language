@@ -1,0 +1,12 @@
+#include<stdio.h>
+main(){
+	printf("Hello world!!\b");
+	printf("\n welcome to India");
+	printf("\n\"Hello\" ");
+	printf("\n \'HI\' ");
+	printf("\n abcd\befg");
+	printf("\n \a hello,have a nice day");
+	printf("\n \\n");
+	
+	
+}
