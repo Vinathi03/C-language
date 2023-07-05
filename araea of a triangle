@@ -1,0 +1,7 @@
+#include<stdio.h>
+main(){
+	float h=35.68,b=45.68,a;
+	a=(b*h)/2;
+	printf("area is:%f",a);
+	
+}
