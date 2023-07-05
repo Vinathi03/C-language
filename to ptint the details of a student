@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+	char s='A';
+	int m=896;
+	float a=78.6;
+	printf("sec:%c \nmarks:%d \navg:%.1f",s,m,a);
+}
