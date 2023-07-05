@@ -1,0 +1,8 @@
+#include<stdio.h>
+main(){
+	float a,p,x=3.14,r=35.6;
+	a=x*r*r;
+	p=2*x*r;
+	printf("area=%f",a);
+	printf("perimeter=%f",p);
+}
