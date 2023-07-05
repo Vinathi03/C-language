@@ -1,0 +1,12 @@
+#include<stdio.h>
+main(){
+	short int x;
+	printf("x size is:%d\n",sizeof(x));
+	printf("long int value is:%d\n",sizeof(long int));
+	printf("unsigned int:%d\n",sizeof(unsigned int));
+	printf("signed int:%d\n",sizeof(signed int));
+	printf("char:%d\n",sizeof(char));
+	printf("float:%d\n",sizeof(float));
+	printf("double:%d\n",sizeof(double));
+	printf("long double:%d\n",sizeof(long double));
+}
