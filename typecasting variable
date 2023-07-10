@@ -1,0 +1,8 @@
+#include<stdio.h>
+main(){
+	int x=69;
+	printf("%c\n",(char)(x));
+	printf("%2f\n",float(x));
+	printf("%3lf",double(x));
+	
+}
