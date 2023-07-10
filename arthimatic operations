@@ -1,0 +1,10 @@
+#include<stdio.h>
+main(){
+	int x,y;
+	scanf("%d %d",&x,&y);
+	printf("x is:%d \t y is:%d\n",x,y);
+  printf("addition is :%d\n",x+y);
+  printf("subtraction is:%d\n",x-y);
+	printf("multiplication value is:%d\n",x*y);
+  printf("division is:%d\n",x/y);
+}
