@@ -1,0 +1,10 @@
+#include<stdio.h>
+main(){
+	int  x=8,y;
+	printf("pre-increment value of x=%d\n",++x);
+	y=x++;
+	printf("post increment");
+	printf("x=%d\n",x);
+	printf("y=%d\n",y);
+
+}
