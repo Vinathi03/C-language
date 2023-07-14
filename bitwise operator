@@ -1,0 +1,10 @@
+#include<stdio.h>
+main(){
+	short int x=12,y=13,a,o,p;
+	a=x&y;
+	o=x|y;
+	p=x^y;
+	printf("x&y:%hd\n",a);
+	printf("x|y:%hd\n",o);
+	printf("x^y:%hd",p);
+	}
