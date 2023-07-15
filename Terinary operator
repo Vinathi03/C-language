@@ -1,0 +1,9 @@
+#include<stdio.h>
+main(){
+	int x,;
+	printf("enter a num:");
+	scanf("%d",&x);
+
+	x%2==0?printf("even"):printf("odd");
+
+}
