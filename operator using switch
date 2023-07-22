@@ -1,0 +1,28 @@
+#include<stdio.h>
+main(){
+	char op;
+	int x,y;
+	printf("enter an operator(+,-,*,/):");
+	scanf("%c",&op);
+	printf("Enter two nums:");
+	scanf("%d %d",&x,&y);
+	switch(op){
+
+	case '+':
+		printf("sum=%d",x+y);
+		break;
+	case '-':
+		printf("diff=%d",x-y);
+		break;
+	case '*':
+		printf("mul=%d",x*y);
+		break;
+	case '/':
+		printf("div=%d",x/y);
+		break;
+	default:
+		printf("invalid operator");	
+					
+}
+	
+}
