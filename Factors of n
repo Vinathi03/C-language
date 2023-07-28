@@ -1,0 +1,15 @@
+#include<stdio.h>
+main(){
+int i,n,count=0;
+scanf("%d",&n);
+
+for(i=1;i<=n;i++){
+	if(n%i==0){
+		printf("The factors of %d are %d",n,i);
+		count++;
+		
+	}
+}
+printf("\nTotal number of factors is:%d",count);
+
+}
