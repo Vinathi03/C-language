@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+	int n,f=0;
+	scanf("%d",&n);
+	int e,x[n];
+	
+	for(int i=0;i<n;i++){
+		scanf("%d",&x[i]);
+		scanf("%d",&e);
+		if(e==x[i]){
+			f=1;
+			printf("The element is %d at %d",x[i],i+1);
+			break;
+		}
+	}
+	if(f==1){
+		printf("element is found");
+		
+	}
+	else
+		printf("element is not found");
+}
