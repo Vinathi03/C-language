@@ -1,0 +1,16 @@
+#include<stdio.h>
+int srm( ){
+	//int c=a+b;
+int x,y,z;
+scanf("%d %d",&x,&y);
+z=x+y;
+printf("%d\n",z);
+return z;
+}
+
+int main(){
+int k;
+k=srm();
+printf("Sum is:%d\n",k);
+//printf("Sum is:%d\n",sum);
+}
