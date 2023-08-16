@@ -1,0 +1,14 @@
+#include<stdio.h>
+void srm( int a,int b){
+	int c=a+b;
+	int x=90,y=90,sum=x*y;
+	printf("%d\n %d",sum,c);
+}
+f1(){
+	srm(10,20);	
+}
+main(){
+
+f1();
+
+}
