@@ -1,0 +1,10 @@
+#include<math.h>
+#include<stdio.h>
+main()
+double k,n,p;
+printf("Enter number and power:");
+scanf("%lf%lf",&n,&p);
+k=pow(n,p);
+printf("%lf power %lf = %lf",n,p,k);
+{
+}
