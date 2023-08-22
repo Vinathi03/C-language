@@ -1,0 +1,12 @@
+#include<math.h>
+#include<stdio.h>
+main()
+double k;
+k=sin(30*M_PI/180);
+printf("sin90=%lf\n",k);
+k=cos(0*M_PI/180);
+printf("cos0=%lf\n",k);
+k=tan(45*M_PI/180);
+printf("tan45=%lf\n",k);
+{
+}
