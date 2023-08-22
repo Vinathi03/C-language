@@ -1,0 +1,9 @@
+#include<math.h>
+#include<stdio.h>
+main()
+double k;
+k=sqrt(100);
+printf("sqrt of 100=%lf\n",k);
+printf("sqrt of 25=%lf",sqrt(25));
+{
+}
