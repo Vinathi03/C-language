@@ -1,0 +1,9 @@
+#include<stdio.h>
+main(){
+	char alpha;
+	alpha='A';
+	while(alpha<='Z'){
+		printf("%c ",alpha);
+		alpha++;
+	}
+}
