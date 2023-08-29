@@ -1,0 +1,12 @@
+#include<stdio.h>
+struct stud{
+
+	int s_id;
+	char s_name[50];
+	
+	float s_gpa;
+};
+main(){
+	struct stud s1={133,"Vinny",8.9};
+	printf("%d %s %f",s1.s_id,s1.s_name,s1.s_gpa);
+}
