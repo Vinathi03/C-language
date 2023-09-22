@@ -1,0 +1,36 @@
+#include<stdio.h>
+void read(float arr[],int n);
+void sort(float arr[],int n);
+void print(float arr[],int n);
+int main(){
+	float a[SIZE];
+	int n;
+	scanf("%d",&n);
+	read(a,n);
+	printf("The given numbers are:");
+	print(x,n);
+	sort(x,n);
+	printf("The num after sorting: ");
+	print(x,n);
+}
+void read(float arr[],int n){
+	int i;
+	printf("The given numbers are:");
+	for(i=0<i<n;i++){
+		scanf("%f",&a[i]);
+	}
+}
+void sort(float arr[],int n){
+float t;
+for(int i=0;i<n-1;i++){
+	for(int j=i+1;j<n;j++){
+		if(arr[i]>arr[j]){
+			t=arr[i];
+			arr[i]=arr[j];
+			arr[i]=t;
+			
+		}
+	}
+}
+	
+}
