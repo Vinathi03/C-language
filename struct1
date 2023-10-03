@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+struct stud{
+    int id;
+    float fee;
+    char name[10];
+};
+struct stud s1,s2;
+printf("Enter the student details\n");
+scanf("%d%f%s",&s1.id,&s1.fee,s1.name);
+scanf("%d%f%s",&s2.id,&s2.fee,s2.name);
+printf("The student details are:");
+printf("Student %s id no is %d and fee is %f\n",s1.name,s1.id,s1.fee);
+printf("Student %s id no is %d and fee is %f",s2.name,s2.id,s2.fee);}
